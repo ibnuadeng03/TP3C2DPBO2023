@@ -69,11 +69,36 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 xxxx
 
 ## Dokumentasi Running Program
-### a. Tampilan program bagian yang secara umum
-xxxxx
+### a. Tampilan awal program
+| Menu | Foto Tangkapan Layar |
+| --- | --- |
+| `LOGIN` | ![AP](/ss/login.png "1") |
 
-### b. Tampilan program bagian Bonus
-xxxx
+### b. Tampilan program bagian Menu Admin
+| Data | Foto Tangkapan Layar |
+| --- | --- |
+| `USER` | ![User](/ss/admin/admin-user.png "1") |
+| `KEPALA KELUARGA` | ![KK](/ss/admin/admin-kk.png "1") |
+| `PASIEN` | ![Pasien](/ss/admin/admin-pasien.png "1") |
+| `REKAM MEDIS` | ![RM](/ss/admin/admin-rm1.png "1") |
+|               | ![RM](/ss/admin/admin-rm2.png "2") |
+|               | ![RM](/ss/admin/admin-rm3.png "3") |
+| `POLI` | ![Poli](/ss/admin/admin-poli.png "1") |
+
+### c. Tampilan program bagian Menu Apoteker
+| Data | Foto Tangkapan Layar |
+| --- | --- |
+| `OBAT` | ![obat](/ss/apoteker/apoteker-obat.png "1") |
+| `REKAM MEDIS` | ![rm](/ss/apoteker/apoteker-rm.png "1") |
+
+### d. Tampilan program bagian Menu Dokter
+| Data | Foto Tangkapan Layar |
+| --- | --- |
+| `REKAM MEDIS` | ![dokter](/ss/dokter/dokter.png "1") |
+|               | ![rm](/ss/dokter/dokter-rm.png "1") |
+
+### Video Selengkapnya :
+https://github.com/ibnuadeng03/TP3DPBOC22023/assets/100753882/9e685e52-92dc-474a-87c8-2cb541b8a601
 
 
 ### **Catatan**
