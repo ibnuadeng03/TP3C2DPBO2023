@@ -65,8 +65,17 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 + Web Browser
 
 ## Desain Program :
-##### ![Class Diagram](/screenshot/UMLLP7.png "1")
-xxxx
+##### ![Database](/ss/relasidb_iak.jpg "1")
+Sebagaimana diketahui bersama (dari gambar terlampir diatas), bahwa dalam kasus ini menggunakan 8 tabel sebagai indikator, yakni : 
+1. Tabel `user` : Tabel ini memiliki *7 entitas* serta secara relasi tabel ini memiliki hubungan *one to one* antara tabel *user* dengan tabel *poli.* Tabel ini berisi data user baik yang bertindak sebagai admin, apoteker, dan dokter.
+2. Tabel `poli` : Tabel ini memiliki *3 entitas* serta secara relasi tabel ini memiliki hubungan *one to one* antara tabel *poli* dengan tabel *user.* Tabel ini berisi data-data poli yang tersedia berserta dengan dokter yang mempuni dibidangnya.
+3. Tabel `kepala_keluarga` : Tabel ini memiliki *10 entitas* serta secara relasi tabel ini memiliki hubungan *one to many* antara tabel *kepala_keluarga* dengan tabel *pasien*. Tabel ini berisi data dari kepala keluarga atau yang pengantar dari pasien atau perwakilan pasiennya.
+4. Tabel `pasien` : Tabel ini memiliki *12 entitas* serta secara relasi tabel ini memiliki hubungan *many to one* antara tabel *pasien* dengan tabel *kepala keluarga*, dan antara tabel *pasien* dengan tabel *rekam*. Tabel ini berisi data-data lengkap pasien berikut dengan rekam medik/*medical checkup* setiap pasien.
+5. Tabel `rekam` : Tabel ini memiliki *11 entitas* serta secara relasi tabel ini memiliki hubungan *one to many* antara tabel *rekam* dengan tabel *pasien*. Tabel ini berisi data rekam medis/*medical checkup* dari masing-masing pasien.
+6. Tabel `rekam_obat` : Tabel ini memiliki *5 entitas* serta secara relasi tabel ini memiliki hubungan *many to one* antara tabel *rekam_obat* dengan tabel *obat*, dan antara tabel *rekam_obat* dengan tabel *transaksi*. Tabel ini berisi data-data obat dari setiap pasien yang ada didalam sebuah rekam medis/*medical checkup.
+7. Tabel `obat` : Tabel ini memiliki *6 entitas* serta secara relasi tabel ini memiliki hubungan *one to many* antara tabel *obat* dengan tabel *rekam_obat*. Tabel ini merupakan tabel yang berisi data-data obat yang ada serta yang didapatkan disetiap pasien.
+8. Tabel `transaksi` : Tabel ini memiliki *5 entitas* serta secara relasi tabel ini memiliki hubungan *one to many* antara tabel *transaksi* dengan tabel *rekam_obat*. Tabel ini berisi ringkasan transaksi pembayaran yang dilakukan oleh pasien, terlebih untuk pembayaran obat-obatan.
+
 
 ## Alur Program :
 Perlu untuk diketahui bersama, bahwa dalam program ini terdapat 3 aktor utama dengan masing-masing memiliki tanggung jawab/hak akses yang berbeda-beda, ketiga aktor tersebut yakni sebagai berikut :
