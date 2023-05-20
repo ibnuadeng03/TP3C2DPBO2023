@@ -65,7 +65,7 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 + Web Browser
 
 ## Desain Program :
-##### ![Database](/ss/relasidb_iak.jpg "1")
+##### ![Database](/ss/relasidb_IAK.jpg "1")
 Sebagaimana diketahui bersama (dari gambar terlampir diatas), bahwa dalam kasus ini menggunakan 8 tabel sebagai indikator, yakni : 
 1. Tabel `user` : Tabel ini memiliki *7 entitas* serta secara relasi tabel ini memiliki hubungan *one to one* antara tabel *user* dengan tabel *poli.* Tabel ini berisi data user baik yang bertindak sebagai admin, apoteker, dan dokter.
 2. Tabel `poli` : Tabel ini memiliki *3 entitas* serta secara relasi tabel ini memiliki hubungan *one to one* antara tabel *poli* dengan tabel *user.* Tabel ini berisi data-data poli yang tersedia berserta dengan dokter yang mempuni dibidangnya.
@@ -151,7 +151,8 @@ https://github.com/ibnuadeng03/TP3DPBOC22023/assets/100753882/9e685e52-92dc-474a
 
 
 ### **Catatan**
-*Jika terjadi hal kesalahan teknis/program error atau lainnya, dengan hormat mohon untuk melakukan validasi kepada saya, karena tentunya hal tersebut dimungkinkan terjadi diluar prakiraan/dugaan. Demikian, harap untuk menjadi maklum. Atas Perhatian dan Kerjasamanya diucapkan terima kasih*
+- *Jika terjadi hal kesalahan teknis/program error atau lainnya, dengan hormat mohon untuk melakukan validasi kepada saya, karena tentunya hal tersebut dimungkinkan terjadi diluar prakiraan/dugaan. Demikian, harap untuk menjadi maklum. Atas Perhatian dan Kerjasamanya diucapkan terima kasih*
+- Data dokter beserta informasi lainnya yang berkaitan dengan RSUD Majalaya diambil dari portal resmi [Info RSUD Majalaya](https://rsudmajalaya.bandungkab.go.id/).
 
 Barakallahu Fiikum.
 
@@ -159,7 +160,8 @@ Barakallahu Fiikum.
 
 **Majalaya, 20 Mei 2023 M / 29 Syawal 1444 H.**
 
-
+![creativecommands-](https://github.com/ibnuadeng03/TP3C2DPBO2023/assets/100753882/496f7f8e-4888-4bb2-8cd5-11f70c2425c8)
+Ciptaan disebarluaskan di bawah [Lisensi Creative Commons Atribusi-NonKomersial-TanpaTurunan 4.0 Internasional.](http://creativecommons.org/licenses/by-nc-nd/4.0/)
 #### [Copyright © 2023. IBNU ADENG KURNIA.](https://me-qr.com/id/entry/vcard/MjuIan4)
 ###### Univ. Pendidikan Indonesia.
 ###### All Rights Reserved.
