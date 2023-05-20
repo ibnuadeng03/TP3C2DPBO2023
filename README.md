@@ -68,6 +68,46 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 ##### ![Class Diagram](/screenshot/UMLLP7.png "1")
 xxxx
 
+## Alur Program :
+Perlu untuk diketahui bersama, bahwa dalam program ini terdapat 3 aktor utama dengan masing-masing memiliki tanggung jawab/hak akses yang berbeda-beda, ketiga aktor tersebut yakni sebagai berikut :
+
+**1. Admin.**
+
+   Pada bagian ini, admin memiliki hak akses secara menyeluruh diantara yang menjadi hak akses admin ialah :
+   - Dapat melakukan CRUD (Create, Read, Update dan Delete) pada berbagai menu data `User`,`Kepala Keluarga`, `Pasien`, `Rekam Medis`, `Poli`. 
+   - Pada menu data `Pasien` terdapat tombol **Rekam** yang mana tombol tersebut berfungsi untuk melakukan rekam medis terhadap pasien, yang selanjutnya akan ditindak lanjuti oleh dokter dan akan muncul di akun dokter yang bersangkutan.
+   - Pada menu data `Rekam Medis` terdapat tombol **Laporan** dalam kolom aksi, ketika diklik maka akan muncul informasi laporan pemeriksaan dari pasien, dan ketika diklik tombol **Lebih Lengkap** maka akan muncul informasi yang secara rincinya. Serta terdapat 2 Status Pasien pada kolom *Status* yakni :
+     + **Obat Telah diberikan** : jika dokter sudah melakukan pemeriksaan dan dokter menyerahkan hasil pemeriksaan ke apoteker, dan apoteker telah memberikan obatnya.
+     + **Telah Diperiksa** : jika dokter sudah melakukan pemeriksaan dan dokter menyerahkan hasil pemeriksaan ke apoteker, namun pihak apoteker belum memberikan obat.
+     + **Belum Diperiksa** : jika dokter belum melakukan pemeriksaan maka pihak apoteker juga belum dapat memberikan obat, sehingga harus menunggu terlebih dahulu untuk dokter memeriksa.
+   - Pada menu data `Poli` terdapat daftar nama-nama poli yang tersedia beserta dengan dokter yang mumpuni dibidangnya.
+   - Terdapat fitur **search** untuk melakukan pencarian data.
+   
+**2. Apoteker.**
+   
+   Pada bagian ini, apoteker memiliki hak akses diantara yang menjadi hak akses apoteker ialah :
+   - Dapat melakukan CRUD (Create, Read, Update dan Delete) pada berbagai menu data `Obat`, dan `Rekam Medis`.
+   - Pada menu data `Obat` terdapat daftar nama-nama obat.
+   - Pada menu `Rekam Medis` dalam kolom *aksi* ada 3 kondisi yang membedakan, yakni :
+     + Tombol **Laporan**, ketika diklik maka akan muncul informasi laporan pemeriksaan dari pasien, dan ketika diklik tombol **Lebih Lengkap** maka akan muncul informasi yang secara rincinya.
+     + Tombol **Buat Resep**, ketika pasien sudah diperiksa oleh dokter dan dokter telah memberikan hasil pemeriksaanya, maka apoteker akan memberikan obatnya.
+     + Tombol **Periksa**, ketika pasien belum diperiksa oleh dokter, dan dokter belum memberikan hasil pemeriksaannya kepada apoteker, sehingga apoteker pun tidak akan dapat memberikan obatnya/memberi resep.
+   - Pada menu `Rekam Medis` dalam kolom *status* ada 3 kondisi yang membedakan, yakni :
+     + **Obat Telah Diberikan**, kondisi ketika dokter telah memeriksa, kemudian menyerahkan hasilnya ke apoteker dan apoteker telah memberikan resep obat.
+     + **Telah Diperiksa**, kondisi ketika dokter telah memeriksa, kemudian menyerahkan hasilnya ke apoteker dan tetapi apoteker belum memberikan resep obat.
+     + **Belum Periksa**, ketika pasien belum diperiksa oleh dokter, dan dokter belum memberikan hasil pemeriksaannya kepada apoteker, sehingga apoteker pun tidak akan dapat memberikan obatnya/memberi resep.
+   - Terdapat fitur **search** untuk melakukan pencarian data.
+
+**3. Dokter.**
+   
+   Pada bagian ini, dokter memiliki hak akses diantara yang menjadi hak akses dokter ialah :
+   - Dapat melakukan CRUD (Create, Read, Update dan Delete) pada berbagai menu data `Rekam Medis`.
+   - Pada menu data `Rekam Medis` dalam kolom `status` ada 2 kondisi yang membedakan diantaranya :
+     + **Telah Diperiksa** : jika dokter telah melakukan pemeriksaan terhadap pasien tersebut. Dan disini dokter dapat melakukan **edit** data serta melihat informasi **Laporan** dan ketika di klik akan muncul informasinya, termasuk akan terkirim laporan hasil pemeriksaan kepada pihak apoteker yang selanjutnya apoteker akan dapat memberikan obat kepada pasien.
+     + **Belum Diperiksa** : jika dokter belum melakukan pemeriksaan kepada pasien. Ketika diklik tombol **Periksa** diklik maka akan muncul halaman untuk dokter dapat memeriksa pasien sekaligus dokter akan memberikan resep obat yang kemudian selanjutnya akan diserahkan ke pihak apoteker, dan apoteker akan membuatkan resepnya yang akan diberikan kepada pasien.
+   - Terdapat fitur **search** untuk melakukan pencarian data.
+ 
+ 
 ## Dokumentasi Running Program
 ### a. Tampilan awal program
 | Menu | Foto Tangkapan Layar |
