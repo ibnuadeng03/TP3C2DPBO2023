@@ -53,11 +53,12 @@ Buatlah program menggunakan bahasa pemrograman PHP dengan spesifikasi sebagai be
 
 
 ## Tools :
-- [X] [*Visual Studio Code/Sublime*/Notepad++](https://www.gramedia.com/best-seller/text-editor-terbaik-programmer/) :  sebuah code editor gratis yang bisa dijalankan di perangkat desktop berbasis Windows, Linux, dan MacOS.
-- [X] [XAMPP](https://www.jogjahost.co.id/blog/xampp-adalah/) : sebuah software yang menjalankan peran sebagai *local web server/localhost*. XAMPP dikembangkan oleh *Apache Friends*. *Apache Friends* sendiri merupakan proyek nirlaba yang bertujuan untuk mempromosikan server web *Apache*. Selain dari itu terdapat juga di dalamnya MariaDB, PHP, Perl, dan lainnya.
-- [X] [*Graphical User Interface* (GUI)](https://bakai.uma.ac.id/2022/09/12/apa-itu-graphical-user-interface-bagaimana-cara-kerjanya/) : *Graphical User Interface* (GUI) adalah komponen sistem visual interaktif untuk aplikasi personal komputer. Menurut **Computer Hope**, GUI menampilkan objek yang mampu memunculkan isu serta merepresentasikan aksi asal pengguna. Menggunakan adanya GUI, kita bisa mengetahui bahwa apa yang kita input telah diterima dan responnya ditampilkan secara visual. GUI dapat terlihat dari perubahan rona, ukuran, visibilitas, serta sejenisnya saat terjadi sebuah hubungan.
-- [X] [Google Chrome](https://dianisa.com/pengertian-google-chrome/) : browser web lintas *platform* yang dikembangkan oleh Google. *Chrome* pertama kali dirilis pada tanggal 2 September 2008. Namun pada awal perilisan Google Chrome, *Software* ini hanya dapat digunakan untuk sistem operasi Microsoft Windows serta kemudian porting ke Linux, macOS, iOS, dan juga Android.
-
+| *Tools* | *Deskripsi* |
+| --- | --- |
+| [*Visual Studio Code/Sublime*/Notepad++](https://www.gramedia.com/best-seller/text-editor-terbaik-programmer/) | Sebuah code editor gratis yang bisa dijalankan di perangkat desktop berbasis Windows, Linux, dan MacOS. |
+| [XAMPP](https://www.jogjahost.co.id/blog/xampp-adalah/)  | Sebuah software yang menjalankan peran sebagai *local web server/localhost*. XAMPP dikembangkan oleh *Apache Friends*. *Apache Friends* sendiri merupakan proyek nirlaba yang bertujuan untuk mempromosikan server web *Apache*. Selain dari itu terdapat juga di dalamnya MariaDB, PHP, Perl, dan lainnya. |
+| [*Graphical User Interface* (GUI)](https://bakai.uma.ac.id/2022/09/12/apa-itu-graphical-user-interface-bagaimana-cara-kerjanya/) | *Graphical User Interface* (GUI) adalah komponen sistem visual interaktif untuk aplikasi personal komputer. Menurut **Computer Hope**, GUI menampilkan objek yang mampu memunculkan isu serta merepresentasikan aksi asal pengguna. Menggunakan adanya GUI, kita bisa mengetahui bahwa apa yang kita input telah diterima dan responnya ditampilkan secara visual. GUI dapat terlihat dari perubahan rona, ukuran, visibilitas, serta sejenisnya saat terjadi sebuah hubungan. |
+| [Google Chrome](https://dianisa.com/pengertian-google-chrome/) | Browser web lintas *platform* yang dikembangkan oleh Google. *Chrome* pertama kali dirilis pada tanggal 2 September 2008. Namun pada awal perilisan Google Chrome, *Software* ini hanya dapat digunakan untuk sistem operasi Microsoft Windows serta kemudian porting ke Linux, macOS, iOS, dan juga Android. |
 
 ## Requirements : 
 + XAMPP (diharapkan versi yang terbaru)
